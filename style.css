@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+fieldset {
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fafbfc;
+}
+
+legend {
+    font-weight: bold;
+    color: #2980b9;
+    background-color: #ecf0f1;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.question-block {
+    margin-bottom: 20px;
+}
+
+.question-block label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #34495e;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.question-block input[type="text"],
+.question-block textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background: #fff;
+}
+
+.question-block input[type="text"]:focus,
+.question-block textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
